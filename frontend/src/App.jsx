@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import UserList from "./components/UserList";
 import UserForm from "./components/UserForm";
+import Whiteboard from "./components/Whiteboard";
 
 
 
@@ -30,6 +31,7 @@ function App() {
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
     <UserForm form={form} setForm={setForm} editingId={editingId} setEditingId={setEditingId} fetchUsers={fetchUsers} error={error} setError={setError} API_URL={API_URL} />
     <UserList setForm={setForm}  setEditingId={setEditingId} fetchUsers={fetchUsers} setError={setError} API_URL={API_URL} users={users} />
+    <Whiteboard setForm={setForm} setEditingId={setEditingId} fetchUsers={fetchUsers} setError={setError} API_URL={API_URL} users={users} />
 </div>
   );
 }
