@@ -4,7 +4,7 @@ This project demonstrates a CRUD (Create, Read, Update, Delete) application for 
 
 ## Live Preview
 
-(Add a link to the live preview if available.  If not, mention that it's a local development setup.)  For example:  "This application is intended for local development.  A live preview is not currently available."
+ "This application is intended for local development.  A live preview is not currently available."
 
 ## Features
 
@@ -20,7 +20,6 @@ This project demonstrates a CRUD (Create, Read, Update, Delete) application for 
 * **Express.js:** A web application framework for Node.js.
 * **Prisma:** An ORM (Object-Relational Mapper) for Node.js and TypeScript.
 * **React:** A JavaScript library for building user interfaces.
-* **(Potentially other libraries):**  List any other significant libraries used, such as `axios` for making API requests in the React frontend, or UI libraries like Material UI or React Bootstrap.
 
 ## Installation
 
