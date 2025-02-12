@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const { PrismaClient } = require("@prisma/client");
 const cors = require("cors");
@@ -5,7 +6,7 @@ const cors = require("cors");
 const app = express();
 const prisma = new PrismaClient();
 
-app.use(cors());
+app.use(cors({origin: process.env.CORS_ORIGIN}));
 app.use(express.json()); // ✅ JSON Body Parser
 
 // ✅ Create User
